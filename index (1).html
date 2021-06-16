@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="diseno.css">
+</head>
+ 
+<body>
+    
+
+    
+<header style="background: rgb(255, 226, 59)">
+	<h1>   ¿Ya tenes una cuenta?</h1>
+    
+</header>
+
+
+
+    <div id="registrar">
+        <h2>Registrarse</h2>    
+
+    </div>
+    
+    <div id="envoltura">
+        <div id="contenedor">
+ 
+            <div id="cabecera">
+        
+            </div>
+ 
+            <div id="cuerpo">
+ 
+                <form id="form-login" action="registro_usuario_be.php" method="POST" >
+					<p><label for="cliente_id">Cliente id:</label></p>
+                        <input name="id" type="number" id="cliente_id" class="cliente_id" placeholder="id" autofocus=""/ ></p>
+ 
+                    <p><label for="Nombre_completo">Nombre Completo:</label></p>
+                        <input name="Nombre_completo" type="text" id="Nombre_completo" class="Nombre_completo" placeholder="Nombre Completo" autofocus=""/ ></p>
+ 
+						<p><label for="Correo_electronico">Correo Elecrtonico:</label></p>
+                        <input name="Correo_electronico" type="email" id="Correo_electronico" class="Correo_electronico" placeholder="Correo Elecrtonico" /></p>
+ 
+                    
+                    <p><label for="Numero_telefono">Numero de tefono:</label></p>
+                        <input name="Numero_telefono" type="tel" id="Numero_telefono" class="Numero_telefono" placeholder="Numero de telefono" /></p>
+                    
+                    <p><label for="CUIT">CUIT:</label></p>
+                        <input name="CUIT" type="tel" id="CUIT" class="CUIT" placeholder="CUIT" /></p>
+                    
+                    <p><label for="Direccion">Direccion:</label></p>
+                        <input name="Direccion" type="text" id="Direccion" class="Direccion" placeholder="Direccion"/ ></p>
+						
+						<p><label for="Ciudad">Ciudad:</label></p>
+                        <input name="Ciudad" type="text" id="Ciudad" class="Ciudad" placeholder="Ciudad"/ ></p>
+ 
+ 
+                    <p><label for="Provincia">Provincia:</label></p>
+                        <input name="Provincia" type="text" id="Provincia" class="Provincia" placeholder="Provincia" /></p>
+                    
+                        <p><label for="Contraseña">Contraseña:</label></p>
+                        <input name="Contrasena" type="password" id="Contraseña" class="Contraseña" placeholder="Contraseña" /></p>
+ 
+                    <p id="bot"><input name="submit" type="submit" id="boton" value="Registrar" class="boton"/></p>
+                </form>
+            </div>
+        <div class="content">
+        <p>haz click en Registrar para continuar con los siguientes pasos</p>
+            
+        
+        </div>
+    </body>
+</html>
